@@ -1,2 +1,21 @@
-package PACKAGE_NAME;public class Library {
+
+
+class Library {
+
+    public String name;
+    public static int totalBooks;
+
+    public void addBooks(int numBooks){
+        totalBooks = numBooks + totalBooks;
+    }
+
+    public static int getTotalBooks(){
+        return totalBooks;
+    }
+
 }
+
+
+
+
+
